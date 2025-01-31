@@ -15,6 +15,8 @@ counter = 4
 #     timmy.forward(100)
 #     timmy.right(90)
 c = ['blue', 'red', 'green','salmon1','coral','SkyBlue','OrangeRed']
+timmy.shape("turtle")
+timmy.width(5)
 for stop in range(counter):
     temp = (360 / counter)
     ac = random.choice(c)
