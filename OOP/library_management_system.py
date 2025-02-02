@@ -1,6 +1,7 @@
 from book import Book, Library
 
 
-myBook1 = Book("The Life of Ziah","zainap","1244B9766")
+myBook1 = Book("The Life of Ziah","zainap")
 
-print(myBook1.available)
+myBook1.is_borrowed = True
+print(myBook1.is_borrowed)
